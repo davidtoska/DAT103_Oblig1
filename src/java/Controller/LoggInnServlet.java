@@ -31,14 +31,7 @@ import utils.UrlMappings;
     @WebInitParam(name = "password", value = "pass123")})
 public class LoggInnServlet extends HttpServlet {
     
-    
-    //@EJB
-    //private ModelBean model;
-    
-    //@PersistenceUnit
-    //EntityManagerFactory emf;
-    
-    
+
     
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
